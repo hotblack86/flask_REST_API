@@ -6,7 +6,7 @@ Instructions:
 - cd into  flask_REST_API
 - Download python3 -  $ brew install python3
 - Install Flask -  $ pip3 install Flask
-- Install Flask-RESTful -  $ pip install flask-restful
+- Install Flask-RESTful -  $ pip3 install flask-restful
 - Activate the virtual environment -  $ . venv/bin/activate
 
 Making Requests:
