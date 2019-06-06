@@ -3,11 +3,11 @@ A Todo API using flask-restful
 Instructions:
 
 - Clone this repo
-- cd into ~flask_REST_API~
-- Download python3  $ brew install python3
-- Install Flask  $ pip3 install Flask
-- Install Flask-RESTful  $ pip install flask-restful
-- Activate the virtual environment  $ . venv/bin/activate
+- cd into  flask_REST_API
+- Download python3 -  $ brew install python3
+- Install Flask -  $ pip3 install Flask
+- Install Flask-RESTful -  $ pip install flask-restful
+- Activate the virtual environment -  $ . venv/bin/activate
 
 Making Requests:
 
@@ -15,6 +15,7 @@ Making Requests:
 GET the list
 
 $ curl http://localhost:5000/todos
+
 {"todo1": {"task": "build an API"}, "todo3": {"task": "profit!"}, "todo2": {"task": "?????"}}
 
 
@@ -23,6 +24,7 @@ $ curl http://localhost:5000/todos
 GET a single task
 
 $ curl http://localhost:5000/todos/todo3
+
 {"task": "profit!"}
 
 
